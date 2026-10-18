@@ -8,7 +8,8 @@ dependencies = [
     "ipykernel",
     "numpy",
     "matplotlib",
-    "torch",
+    "plotly>=7.1.0",
+    "streamlit>=1.66.0",
 ]
 
 [tool.uv]
