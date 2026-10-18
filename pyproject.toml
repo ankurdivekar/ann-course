@@ -1,0 +1,15 @@
+[project]
+name = "ann-course"
+version = "0.1.0"
+description = "Intro to Artificial Neural Networks"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab",
+    "ipykernel",
+    "numpy",
+    "matplotlib",
+    "torch",
+]
+
+[tool.uv]
+package = false
